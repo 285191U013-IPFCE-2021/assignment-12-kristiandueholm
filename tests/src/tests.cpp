@@ -32,6 +32,7 @@ TEST_CASE("duration")
     REQUIRE(d2.Tick(5) == true);
 
     // h)
+    // Throws assertion error if alarm < time
     // d3.SetAlarm(5);
 
     // i)
