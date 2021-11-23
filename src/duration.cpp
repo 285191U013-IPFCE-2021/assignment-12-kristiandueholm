@@ -17,6 +17,9 @@ Duration::Duration(int t)
     alarmHasBeenSet = false;
 }
 
+Duration::~Duration()
+{}
+
 int Duration::GetDuration()
 {
     return time;

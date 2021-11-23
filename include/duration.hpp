@@ -8,8 +8,11 @@ class Duration
         int alarm;
         bool alarmHasBeenSet;
     public:
+        // Constructor
         Duration();
         Duration(int t);
+        // Destructor
+        ~Duration();
         int GetDuration();
         bool Tick();
         bool Tick(int t);
